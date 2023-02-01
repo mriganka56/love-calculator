@@ -6,7 +6,9 @@ loveScore = Math.floor(loveScore) + 1;
 
 if (loveScore === 100) {
   document.write("<h1>The love score between "+a.toUpperCase()+" and "+b.toUpperCase()+"<br>is " + loveScore + "%<br><br>" + " Congratulations!<br> You are made for each other!</h1>");
-} else if (loveScore > 70) {
+} else if (loveScore > 90) {
+  document.write("<h1>The love score between "+a.toUpperCase()+" and "+b.toUpperCase()+"<br>is " + loveScore + "%<br><br>" + " Say those 3 magical words to your Crush!</h1>");
+}else if (loveScore > 70) {
   document.write("<h1>The love score between "+a.toUpperCase()+" and "+b.toUpperCase()+"<br>is " + loveScore + "%<br><br>" + " Time to know each other more deeply!</h1>");
 } else if (loveScore > 30) {
   document.write("<h1>The love score between "+a.toUpperCase()+" and "+b.toUpperCase()+"<br>is " + loveScore + "%<br><br>" + " Keep Going!</h1>");
