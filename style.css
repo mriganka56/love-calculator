@@ -20,31 +20,36 @@ h1{
     font-family: 'Lobster', cursive;
     color:#fff
 }
-/* @media (max-width:1028px) {
+@media (max-width:1028px) {
     h1{
-        margin-left: 50px;
-        text-align: center;
-    }
-    .img{
-        position: absolute;
-        top: 300px;
-        margin-top: 300px;
-    }
-}
-@media (max-width:500px) {
-    h1{
-        left: 5px;
-        padding-left: 50px;
-        padding-right: 50px;
-        margin-left: 10px;
-        text-align: center;
-        font-size: 2rem;
+        position:absolute;
+        left:100px;
+        top:150px;
+        font-family: 'Lobster', cursive;
+        color:#fff
     }
     .img{
         position: absolute;
         padding-left: 200px;
-        margin-top: 200px;
+        margin-top: 300px;
         margin-left: 150px;
         right:0px;
     }
-} */
+}
+@media (max-width:500px) {
+    h1{
+        position:absolute;
+        left:100px;
+        top:150px;
+        font-family: 'Lobster', cursive;
+        color:#fff
+    }
+
+    .img{
+        position: absolute;
+        padding-left: 200px;
+        margin-top: 300px;
+        margin-left: 150px;
+        right:0px;
+    }
+} 
